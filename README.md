@@ -127,3 +127,82 @@ For this week's assignment, we will be using NumPy, PyTorch, and TensorFlow. It 
    - [Understanding and Visualizing CNNs](https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/)
    - [Kaggle - Transfer Learning and CNN Architectures](https://www.kaggle.com/code/dansbecker/transfer-learning)
 
+## Week 5
+
+This week, we'll delve into the fascinating world of Recurrent Neural Networks (RNNs) and explore how they can be used to process sequences of data, such as sentences and text.
+
+## Coursera Course
+
+### **Strongly Recommended**
+
+**Complete the first two weeks of the course ["Sequence Models" by Andrew Ng](https://www.coursera.org/learn/nlp-sequence-models?) on Coursera.**
+
+This course covers essential concepts related to sequential neural networks and word embeddings. You can audit the content for free, providing a solid theoretical foundation for the topics we'll cover this week.
+
+## Understanding RNNs
+
+Recurrent Neural Networks (RNNs) are designed to process sequences of data. Learn the basics of RNNs and how they maintain a memory of past inputs:
+
+- [**Understanding RNNs - Towards Data Science**](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
+- [**Recurrent Neural Networks (RNN) - Deep Learning Basics**](https://www.youtube.com/watch?v=UNmqTiOnRfg)
+
+We will also explore Natural Language Processing (NLP), a field that focuses on the interaction between computers and humans using natural language. Understanding the fundamentals of text processing, language modeling, and sentiment analysis will be crucial for tasks such as chatbots, language translation, and text summarization.
+
+## NLP (Natural Language Processing)
+*CONTENTS*
+
+- Word Embeddings
+- Text Preprocessing
+- Sentiment Analysis
+
+### Word Embeddings
+
+Neural networks cannot process words directly; they deal only with numerical vectors and their computations. To feed text as input to a neural network, we need to convert it into vector form using word embeddings. Various techniques (TF-IDF, Skip-gram, CBOW) and implementations (Glove, FastText, etc.) exist for this purpose.
+
+Read these articles:
+
+- [*Brief conceptual overview*](https://www.geeksforgeeks.org/word-embeddings-in-nlp/) (Must read)
+- [*TF-IDF*](https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/)
+- [*CBOW*](https://www.geeksforgeeks.org/continuous-bag-of-words-cbow-in-nlp/)
+- [*Skipgram*](https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/)
+
+### Text Preprocessing
+
+Text preprocessing in NLP is essential to clean and transform raw text data, addressing issues like irrelevant characters, formatting, and inconsistencies to ensure its suitability for analysis by machine learning models.
+
+*Main Topics to Keep in Mind:*
+
+- Tokenization
+- Lowercase conversion
+- Stopwords removal
+- Stemming
+- Lemmatization
+
+*RESOURCES*
+
+- [*Detailed guide*](https://www.analyticsvidhya.com/blog/2021/06/text-preprocessing-in-nlp-with-python-codes/) (Recommended)
+- [*Youtube Video*](https://www.youtube.com/watch?v=nxhCyeRR75Q), focusing more on post-cleanup steps like tokenization, stemming, and lemmatization
+
+### Sentiment Analysis
+
+Sentiment analysis in NLP involves determining the emotional tone or subjective information expressed in a piece of text, helping identify and quantify sentiments such as positive, negative, or neutral attitudes.
+
+- [Short intro](https://www.geeksforgeeks.org/what-is-sentiment-analysis/)
+
+### NLTK vs spaCy
+
+NLTK is versatile and suitable for learning and experimenting with various NLP concepts, making it popular in academic and research settings. spaCy, with its emphasis on speed and ease of use, is favored in the industry for developing efficient and scalable NLP applications. The choice between NLTK and spaCy depends on the specific needs of a project and the user's goals, whether it be educational exploration or real-world application development.
+
+### TEXT PROCESSING WITH SPACY
+
+*RESOURCES*
+
+- [*Spacy Documentation*](https://spacy.io/usage/spacy-101)
+- [*Spacy Video Tutorial*](https://youtu.be/THduWAnG97k)
+
+*Main Topics to Keep in Mind:*
+
+- Tokenization
+- Parts of Speech Tagging
+- Named Entity Recognition
+
